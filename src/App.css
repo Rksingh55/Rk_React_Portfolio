@@ -1,0 +1,201 @@
+.home{
+    background-color: white;
+  /* margin-top: 50px; */
+}
+.navbar{
+    color: white;
+    background-color: white;
+    height: 38px;
+}
+p{
+    font-family: 'Abel';
+    float: left;
+   text-align: justify;
+   font-size: 18px;
+}
+/* .project{
+    background-color: antiquewhite;
+
+} */
+/*  */
+.error{
+    width: 100%;
+margin-top: 80px;
+    height: 400px;
+    text-align: center;
+  }
+  .error-head {
+    color: black;
+    font-size: 150px;
+    font-weight: bold;
+    text-shadow: 0 0 5px red;
+  }
+.error-para{
+  color: blueviolet;
+}
+/* .education{
+    background-color: darkgrey;
+} */
+
+
+.p1, .p2, .p3, .p4, .p5{
+    
+    box-shadow: 0 0  12px rgb(109, 106, 106);
+   
+}
+
+.e1{
+    border-left:5px solid red ;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+
+
+}
+.e2{
+    border-left:5px solid blue;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+
+   
+}
+.e3{
+    border-left:5px solid gold ;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+
+   
+}
+
+.foot{
+ 
+    height: auto;
+     background-color: black;
+     color: white;
+     text-align: center;
+   }
+.btn{
+    background-color: black;
+    box-shadow: 0 0 5px black;
+    color: white;
+    border: 1px solid red;
+}
+span4{
+    background-color:gold;
+    color: black;
+    font-size: 13px;
+    padding: 5px;
+}
+/* .contact{
+    background-color: rgb(193, 235, 237);
+} */
+.homepage{
+    margin-top: 50px;
+    /* background:linear-gradient(rgb(241, 186, 186), white);
+    border-left:  2px solid red; */
+}
+/* .service{
+    background-color: rgb(188, 230, 216);
+} */
+.aboutpage{
+    margin-top: 70px;
+}
+/* .about{
+    background-color: bisque;
+} */
+span6{
+    color: red;
+}
+.con{
+    background-color: whitesmoke;
+  
+    border-bottom: 2px solid grey;
+}
+.img1{
+    height: 470px;
+    width: 390px;
+    /* border: 2px solid yellowgreen; */
+    border-radius: 50%;
+    margin-top: 15px;
+    /* box-shadow: 0 0 10px 10px aqua; */
+}
+.img2{
+    height: 420px;
+}
+h2, h6{
+    text-align: center;
+    font-family: 'Berkshire Swash';
+   
+}
+span2{
+    background-color: aqua;
+}
+span3{
+    color: red;
+    font-weight: bold;
+}
+/* .skill{
+    background-color: whitesmoke;
+} */
+h1{
+
+    font-family: 'Amita';
+}
+
+i{
+    color:red;
+    font-size: 23px;
+    text-shadow:  10px 10px 10px 20px black;
+}
+.form-control{
+    border: 1.5px solid black;
+    box-shadow: 0px 0 8px black;
+
+}
+.s1, .s3, .s6{
+    background-color: aquamarine;
+}
+.s2, .s4{
+    background-color: cornflowerblue;
+}
+.s5{
+    background-color: darkgray;
+}
+.s6{
+    background-color: violet;
+}
+@media (max-width:480px){
+
+    .img1{
+        height: 360px;
+        width: 420px;
+        /* border: 2px solid yellowgreen; */
+        border-radius: 50%;
+        margin-top: 0px;
+        /* box-shadow: 0 0 10px 10px aqua; */
+        }
+        span{
+            font-family: 'Berkshire Swash';
+            color: red;
+            font-weight: bold;
+            font-size: 35px;
+        }
+
+    .navbar{
+        display: none;
+    }
+    .homepage{
+        margin-top:     22px;
+    }
+    .form1{
+        margin-top: 30px;
+    }
+    .img2{
+        height: 350px;
+    }
+    .aboutpage{
+        margin-top: 10px;
+    }
+}
