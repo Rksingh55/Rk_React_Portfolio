@@ -10,9 +10,9 @@ function Services() {
         <h2>
           My <span2>Services</span2>
         </h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4 p-2">
+        <div class="row row-cols-1 row-cols-md-3 g-4 p-3">
           <div class="col">
-            <div class="card h-100 p1">
+            <div class="card h-100 p2 ">
               <img src={i5} class="card-img-top" alt="..." height="200px" />
               <div class="card-body">
                 <h5 class="card-title">Static Websites</h5>
@@ -46,7 +46,7 @@ function Services() {
               <img src={rk} class="card-img-top" alt="..." height="200px" />
               <div class="card-body">
                 <h5 class="card-title">
-                  Web Hosting, web Designing, Photo Editing
+                  Web Hosting, Web Designing, Photo Editing
                 </h5>
                 <p class="card-text">
                   Any type of Photo Editing, Web Designing, or web Hosting.
